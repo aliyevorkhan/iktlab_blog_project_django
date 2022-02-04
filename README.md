@@ -10,7 +10,11 @@ Bu proyekt [buradaki](https://github.com/aliyevorkhan/ikt_lab_python_module_1) d
 * django-admin startproject
 * DJANGO'nun fayllari haqqinda melumat
 
-- [x] DERS 36. <br>
+- [ ] DERS 36. <br>
 * admin app haqqinda melumat
 * super user yaratmaq
 * article app yaratmaq
+
+- [ ] DERS 37. <br>
+* admin hissesini fərdiləşdirmək (https://docs.djangoproject.com/en/4.0/ref/contrib/admin/)
+* 
