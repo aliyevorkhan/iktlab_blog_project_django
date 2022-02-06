@@ -31,8 +31,11 @@ Bu proyekt [buradaki](https://github.com/aliyevorkhan/ikt_lab_python_module_1) d
 * super user yaratmaq
 * article app yaratmaq
 
-- [ ] DERS 37. <br>
+- [x] DERS 37. <br>
 * Article hissesini admin panelden idare etmek
 * admin hissesini fərdiləşdirmək (https://docs.djangoproject.com/en/4.0/ref/contrib/admin/)
-* HTML
 * Django URLs
+
+- [ ] DERS 38. <br>
+* Django Shell ORM
+* HTML Cheatsheet
