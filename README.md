@@ -38,4 +38,5 @@ Bu proyekt [buradaki](https://github.com/aliyevorkhan/ikt_lab_python_module_1) d
 
 - [ ] DERS 38. <br>
 * Django Shell ORM
-* HTML Cheatsheet
+* Staticfiles (https://docs.djangoproject.com/en/4.0/howto/static-files/)
+* HTML & CSS Cheatsheet
