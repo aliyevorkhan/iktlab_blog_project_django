@@ -42,7 +42,7 @@ Bu proyekt [buradaki](https://github.com/aliyevorkhan/ikt_lab_python_module_1) d
 
 - [x] DERS 39. <br>
 * Staticfiles (https://docs.djangoproject.com/en/4.0/howto/static-files/)
-* Template Inheritance
+* Template Inheritance (https://levelup.gitconnected.com/django-template-inheritance-and-reusability-e97b0fed8bcc)
 * Bootstrap (https://getbootstrap.com/)
 * Navbar
 * Haqqimizda sehifesi
