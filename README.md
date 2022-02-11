@@ -46,3 +46,4 @@ Bu proyekt [buradaki](https://github.com/aliyevorkhan/ikt_lab_python_module_1) d
 * Bootstrap (https://getbootstrap.com/)
 * Navbar
 * Haqqimizda sehifesi
+* Context, Template-Views elaqesi

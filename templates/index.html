@@ -4,7 +4,18 @@
 
     <div style="margin-top:100px;" class="jumbotron text-center">
         <h3> ƏSAS SƏHİFƏYƏ XOŞ GƏLDİNİZ! </h3>
+        {%if age >= 18 %}
+            <p>Yasiniz uygundur</p>
+        {% else %}
+            <p>Yasiniz uygun deyil</p>
+        {% endif %}
         <p> Bu sehifede paylasilan postlar gosterilecek! </p>
     </div>
+
+    <ul>
+        {% for number in numbers %}
+            <li>{{number}}</li>
+        {% endfor %}
+    </ul>
 
 {% endblock body %}
