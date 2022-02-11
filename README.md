@@ -47,3 +47,9 @@ Bu proyekt [buradaki](https://github.com/aliyevorkhan/ikt_lab_python_module_1) d
 * Navbar
 * Haqqimizda sehifesi
 * Context, Template-Views elaqesi
+
+- [ ] DERS 40. <br>
+* App URL ve Include mentiqi
+* User App yaratmaq
+* Form Class'larinin istifadesi
+* Yeni User Qeydiyyati 
