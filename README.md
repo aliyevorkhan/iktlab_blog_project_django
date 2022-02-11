@@ -36,7 +36,13 @@ Bu proyekt [buradaki](https://github.com/aliyevorkhan/ikt_lab_python_module_1) d
 * admin hissesini fərdiləşdirmək (https://docs.djangoproject.com/en/4.0/ref/contrib/admin/)
 * Django URLs
 
-- [ ] DERS 38. <br>
+- [x] DERS 38. <br>
 * Django Shell ORM
+* HTML Cheatsheet
+
+- [x] DERS 39. <br>
 * Staticfiles (https://docs.djangoproject.com/en/4.0/howto/static-files/)
-* HTML & CSS Cheatsheet
+* Template Inheritance
+* Bootstrap (https://getbootstrap.com/)
+* Navbar
+* Haqqimizda sehifesi
