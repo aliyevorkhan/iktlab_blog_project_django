@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<h3> Qeydiyyat </h3>
+<form method="post"> 
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit" class="btn btn-primary"> Qeydiyyatdan keç</button>
+</form>
+{% endblock body %}
