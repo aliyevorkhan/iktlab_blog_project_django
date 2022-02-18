@@ -48,8 +48,20 @@ Bu proyekt [buradaki](https://github.com/aliyevorkhan/ikt_lab_python_module_1) d
 * Haqqimizda sehifesi
 * Context, Template-Views elaqesi
 
-- [ ] DERS 40. <br>
+- [x] DERS 40. <br>
 * App URL ve Include mentiqi
 * User App yaratmaq
 * Form Class'larinin istifadesi
 * Yeni User Qeydiyyati 
+
+- [x] DERS 41. <br>
+* Django mesajlari
+* Sayta Login olmaq 
+* Crispy Formlar
+* Saytadan Logout olmaq
+* User sessiyasinin kontrolu
+* Dashboard sehifesinin yaradilmasi
+* Article'lari database'e yazmaq
+
+
+
