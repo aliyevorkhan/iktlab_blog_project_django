@@ -35,7 +35,7 @@ def login_user(request):
         user=authenticate(username=username, password=password)
     
         if user is None:
-            messages.info(request, "İstifadəçi adı və ya parol səhvdir")
+            messages.warning(request, "İstifadəçi adı və ya parol səhvdir")
             return render(request, "login.html", context)
 
         messages.success(request, "Sayta giriş etdiniz")
@@ -47,6 +47,6 @@ def login_user(request):
 
 def logout_user(request):
     logout(request)
-    messages.success(request, "Saytdan çıxış etdiniz")
+    messages.warning(request, "Saytdan çıxış etdiniz")
     return redirect('index')
     
