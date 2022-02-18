@@ -55,9 +55,9 @@ Bu proyekt [buradaki](https://github.com/aliyevorkhan/ikt_lab_python_module_1) d
 * Yeni User Qeydiyyati 
 
 - [x] DERS 41. <br>
-* Django mesajlari
+* Django mesajlari (https://docs.djangoproject.com/en/4.0/ref/contrib/messages/)
 * Sayta Login olmaq 
-* Crispy Formlar
+* Crispy Formlar (https://django-crispy-forms.readthedocs.io/en/latest/)
 * Saytadan Logout olmaq
 * User sessiyasinin kontrolu
 * Dashboard sehifesinin yaradilmasi

@@ -1,10 +1,19 @@
 {% extends 'layout.html' %}
-
 {% block body %}
-<h3> Qeydiyyat </h3>
-<form method="post"> 
-    {% csrf_token %}
-    {{form.as_p}}
-    <button type="submit" class="btn btn-primary"> Qeydiyyatdan keç</button>
-</form>
+
+{% load crispy_forms_tags %}
+
+
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+    <h3> Qeydiyyat </h3>
+    <hr>
+        <form method="post">
+            {% csrf_token %}
+            {{form | crispy}}
+            <br>
+            <button type="submit" class="btn btn-primary">Qeydiyyatdan keç</button>
+        </form>
+    </div>
+</div>
 {% endblock body %}

@@ -19,3 +19,9 @@ class RegisterForm(forms.Form):
             
         }
         return values
+
+
+class LoginForm(forms.Form):
+    username = forms.CharField(label="İstifadəçi adı")
+    password = forms.CharField(label="Parol", widget=forms.PasswordInput)
+    
