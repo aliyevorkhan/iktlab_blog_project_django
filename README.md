@@ -61,7 +61,11 @@ Bu proyekt [buradaki](https://github.com/aliyevorkhan/ikt_lab_python_module_1) d
 * Saytadan Logout olmaq
 * User sessiyasinin kontrolu
 * Dashboard sehifesinin yaradilmasi
+* Article ucun ModelForm yaradilmasi (https://docs.djangoproject.com/en/4.0/topics/forms/modelforms/)
 * Article'lari database'e yazmaq
-
+* commit=False problemi
+* Article'lari dashboard'da gostermek
+* bootstrap tablelar
+* Article Silmek ve Redakte etmek ucun views ve urls
 
 

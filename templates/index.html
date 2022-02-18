@@ -7,7 +7,7 @@
         <p> Bu sehifede paylasilan postlar gosterilecek! </p>
 
         {% if request.user.is_authenticated %}
-            Giris edildi {{request.user.username}}
+            Giris edildi <small>{{request.user.username}}</small>
         {% else %}
             YOX
         {% endif %}

@@ -1,0 +1,40 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<h3> İdarəetmə Paneli </h3>
+<hr>
+
+<p> Xoş gəldiniz <small>{{ request.user.username }}<small></p>
+<hr>
+<a href="/articles/add_article" class="btn btn-primary">Post Əlavə Et</a>
+<hr>
+{% if articles %}
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Başlıq</th>
+        <th scope="col">Yaradılma Tarixi</th>
+        <th scope="col">Əməliyyatlar</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for article in articles %}
+        <tr>
+            <th scope="row">{{article.id}}</th>
+            <td>{{article.title}}</td>
+            <td>{{article.created_date}}</td>
+            <td><a href="/articles/edit/{{article.id}}" class="btn btn-success">Redaktə Et</a></td>
+            <td><a href="/articles/delete/{{article.id}}" class="btn btn-danger">Sil</a></td>
+        </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+{% else %}
+  <div class="alert alert-warning">
+    Hələki heç bir postunuz yoxdur..
+  </div>
+{% endif %}
+
+
+{% endblock body %}
