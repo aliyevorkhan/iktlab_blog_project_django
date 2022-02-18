@@ -64,8 +64,12 @@ Bu proyekt [buradaki](https://github.com/aliyevorkhan/ikt_lab_python_module_1) d
 * Article ucun ModelForm yaradilmasi (https://docs.djangoproject.com/en/4.0/topics/forms/modelforms/)
 * Article'lari database'e yazmaq
 * commit=False problemi
+
+- [x] DERS 42. <br>
 * Article'lari dashboard'da gostermek
 * bootstrap tablelar
 * Article Silmek ve Redakte etmek ucun views ve urls
-
-
+* Article Detail sehifesi
+* Bootstrap Post Detail sehifesi (https://github.com/StartBootstrap/startbootstrap-blog-post/blob/master/dist/index.html)
+* get_object_or_404
+* 

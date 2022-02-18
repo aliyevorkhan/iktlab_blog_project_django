@@ -1,4 +1,4 @@
-from django.shortcuts import redirect, render, HttpResponse
+from django.shortcuts import redirect, render, HttpResponse, get_object_or_404
 from .forms import ArticleForm
 from django.contrib import messages
 from .models import Article
@@ -41,6 +41,15 @@ def delete(request, id):
     article = Article.objects.filter(id=id)
     article.delete()
     return redirect('article:dashboard')
+
+def detail(request, id):
+    # article = Article.objects.filter(id=id).first()
+    article = get_object_or_404(Article, id=id)
+    context = {
+        "article": article,
+    }
+    return render(request, "detail.html", context)
+
 
 def edit(request, id):
     return redirect('article:dashboard')
