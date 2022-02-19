@@ -72,4 +72,8 @@ Bu proyekt [buradaki](https://github.com/aliyevorkhan/ikt_lab_python_module_1) d
 * Article Detail sehifesi
 * Bootstrap Post Detail sehifesi (https://github.com/StartBootstrap/startbootstrap-blog-post/blob/master/dist/index.html)
 * get_object_or_404
-* 
+* Boostrap fayllarini static hala getirmek 
+* CSS/JS (https://getbootstrap.com/docs/4.0/getting-started/download/)
+* Jquery (https://code.jquery.com/jquery-3.6.0.min.js)
+* collectstatic (https://docs.djangoproject.com/en/4.0/howto/static-files/)
+* ckeditor (https://github.com/django-ckeditor/django-ckeditor)

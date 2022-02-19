@@ -10,6 +10,7 @@
     <hr>
         <form method="post">
             {% csrf_token %}
+            {{form.media}}
             {{form | crispy}}
             <br>
             <button type="submit" class="btn btn-primary">Əlavə Et</button>
