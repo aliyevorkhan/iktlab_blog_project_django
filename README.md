@@ -69,6 +69,7 @@ Bu proyekt [buradaki](https://github.com/aliyevorkhan/ikt_lab_python_module_1) d
 * Article'lari dashboard'da gostermek
 * bootstrap tablelar
 * Article Silmek ve Redakte etmek ucun views ve urls
+* Article Silmek funksiyasinin islemesi
 * Article Detail sehifesi
 * Bootstrap Post Detail sehifesi (https://github.com/StartBootstrap/startbootstrap-blog-post/blob/master/dist/index.html)
 * get_object_or_404
@@ -77,3 +78,16 @@ Bu proyekt [buradaki](https://github.com/aliyevorkhan/ikt_lab_python_module_1) d
 * Jquery (https://code.jquery.com/jquery-3.6.0.min.js)
 * collectstatic (https://docs.djangoproject.com/en/4.0/howto/static-files/)
 * ckeditor (https://github.com/django-ckeditor/django-ckeditor)
+
+- [ ] DERS 43. <br>
+* File Upload in Django
+* Article Redakte etmek funksiyasinin islemesi
+* login_required
+* Article sehifesinde dizayn isleri
+* Django template filters
+* Search funksiyanalligi
+* Dynamic urls
+* Comment Modeli ve Comment formu
+* Article'lara comment elave etmek
+* Article'larin commentlerini gostermek
+* Comment ve Article'lari tarixe gore siralamaq
