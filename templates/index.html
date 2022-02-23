@@ -2,17 +2,49 @@
 
 {% block body %}
 
-    <div style="margin-top:100px;" class="jumbotron text-center">
-        <h3> ƏSAS SƏHİFƏYƏ XOŞ GƏLDİNİZ! </h3>
-        <p> Bu sehifede paylasilan postlar gosterilecek! </p>
+{% if articles %}
+    <form class="form-inline my-2 my-lg-10">
+        {% csrf_token %}
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" name="keyword" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Axtar</button>
+    </form>
+    {% for article in articles %}
+    <hr>
+    <div class="row">
+        <div class="col-lg-8">
+            <!-- Post content-->
+            <article>
+                <!-- Post header-->
+                <header class="mb-4">
+                    <!-- Post title-->
+                    <a href="{% url 'article:detail' article.id %}">
+                        <h1 class="fw-bolder mb-1">{{article.title}}</h1>
+                    </a>
+                    <!-- Post meta content-->
+                    <div class="text-muted fst-italic mb-2">{{article.created_date}} tarixində {{article.author.username}} paylaşdı</div>
+                </header>
+                <!-- Preview image figure-->
+                {% if article.article_image %}
+                <a href="/articles/detail/{{article.id}}">
+                    <figure class="mb-4"><img class="img-fluid rounded" src="{{article.article_image.url}}" alt="..." /></figure>
+                </a>
+                {% endif %}
+                <!-- Post content-->
+                <section class="mb-5">
+                    <p class="fs-5 mb-4">{{article.content|safe|truncatewords:30}}</p>
+                    <a href="/articles/detail/{{article.id}}"> <p> Davamını oxu.. </p> </a>
+                </section>
+            </article>
+        </div>
+    </div>    
+    <hr>
+    {% endfor %}
 
-        {% if request.user.is_authenticated %}
-            Giris edildi <small>{{request.user.username}}</small>
-        {% else %}
-            YOX
-        {% endif %}
+
+{% else %}
+    <div class="alert alert-danger">
+        Bu saytda heç bir post paylaşılmayıb
     </div>
-
-    
+{% endif %}
 
 {% endblock body %}

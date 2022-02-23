@@ -82,12 +82,14 @@ Bu proyekt [buradaki](https://github.com/aliyevorkhan/ikt_lab_python_module_1) d
 - [ ] DERS 43. <br>
 * File Upload in Django
 * Article Redakte etmek funksiyasinin islemesi
+* delete funksiyasini get_object_or_404 ile duzeltmek
 * login_required
 * Article sehifesinde dizayn isleri
-* Django template filters
+* Django template filters (https://docs.djangoproject.com/en/4.0/ref/templates/builtins/)
 * Search funksiyanalligi
 * Dynamic urls
-* Comment Modeli ve Comment formu
+* Comment Modeli ve Comment formu(html)
 * Article'lara comment elave etmek
+* reverse funksiyasi
 * Article'larin commentlerini gostermek
-* Comment ve Article'lari tarixe gore siralamaq
+* Comment ve Article'lari tarixe gore siralamaq (https://docs.djangoproject.com/en/4.0/ref/models/options/)
