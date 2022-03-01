@@ -79,7 +79,7 @@ Bu proyekt [buradaki](https://github.com/aliyevorkhan/ikt_lab_python_module_1) d
 * collectstatic (https://docs.djangoproject.com/en/4.0/howto/static-files/)
 * ckeditor (https://github.com/django-ckeditor/django-ckeditor)
 
-- [ ] DERS 43. <br>
+- [x] DERS 43. <br>
 * File Upload in Django
 * Article Redakte etmek funksiyasinin islemesi
 * delete funksiyasini get_object_or_404 ile duzeltmek
@@ -88,8 +88,14 @@ Bu proyekt [buradaki](https://github.com/aliyevorkhan/ikt_lab_python_module_1) d
 * Django template filters (https://docs.djangoproject.com/en/4.0/ref/templates/builtins/)
 * Search funksiyanalligi
 * Dynamic urls
+
+- [x] DERS 44. + yarim ders <br>
 * Comment Modeli ve Comment formu(html)
 * Article'lara comment elave etmek
 * reverse funksiyasi
 * Article'larin commentlerini gostermek
 * Comment ve Article'lari tarixe gore siralamaq (https://docs.djangoproject.com/en/4.0/ref/models/options/)
+* TODO Project yaratmaq sifirdan ve onun uzerinde islemek
+
+- [x] DERS 45. <br>
+* TODO Project yaratmaq sifirdan ve onun uzerinde islemek (davami)
