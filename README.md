@@ -99,3 +99,6 @@ Bu proyekt [buradaki](https://github.com/aliyevorkhan/ikt_lab_python_module_1) d
 
 - [x] DERS 45. <br>
 * TODO Project yaratmaq sifirdan ve onun uzerinde islemek (davami)
+* DateTime picker
+* ordering reverse
+* crispy forms
